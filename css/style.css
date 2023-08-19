@@ -1,0 +1,63 @@
+/* body{
+    background: url("images/smart.jpg") ;
+    background: url(https://unsplash.it/1080/720/?image=377) no-repeat fixed center / cover; 
+} */
+body {
+    background-image: url("s1.jpg") ;
+    
+}
+main{
+
+    display: flex;
+    justify-content: center;
+}
+.content{
+    background-color: white;
+    width: 900px;
+    height: 818px;
+    margin: 30px 0;
+}
+.content1{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 45px 0;
+}
+.blue{
+    background-color: #0069ac;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    padding: 3px;
+}
+#color{
+    background-color: #088bdf;
+    border-radius: 5px;
+}
+.set1{
+    width: 50%;
+}
+.set2{
+    background-color: #d9eaf4;
+    width: 50%;
+}
+section{
+    padding: 20px;
+}
+footer{
+    background-color: #0577c1;
+    display: flex;
+    justify-content: right;
+}
+footer p{
+    color: white;
+    margin: 3px;
+}
